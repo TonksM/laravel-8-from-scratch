@@ -1,0 +1,25 @@
+body {
+    background: white;
+    color: black;
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+article + article {
+    margin-top: 3rem;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+ul li {
+    float: left;
+    border-radius: 12px;
+    border: 2px solid #999999;
+    padding: 8px; 
+    margin-right: 10px;
+}
